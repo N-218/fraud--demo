@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("Fraud Detection: CASH-OUT Transactions")
 
 # Load dataset from GitHub or local CSV
-DATA_URL = "https://github.com/N-218/fraud--demo/blob/72c49bdc366577d61d36431dea4c9076ee01d259/fraud_sample.csv"
+DATA_URL = "https://n-218.github.io/fraud--demo/fraud_sample.csv"
 df = pd.read_csv(DATA_URL)
 df['balance_delta'] = df['newbalanceOrig'] - df['oldbalanceOrg']
 
