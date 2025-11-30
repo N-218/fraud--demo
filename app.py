@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("Fraud Detection: CASH-OUT Transactions")
 
 # Load dataset from GitHub or local CSV
-DATA_URL = "https://www.kaggle.com/datasets/ealaxi/paysim1"
+DATA_URL = "https://github.com/N-218/fraud--demo/blob/main/fraud_sample.csv"
 df = pd.read_csv(DATA_URL)
 df['balance_delta'] = df['newbalanceOrig'] - df['oldbalanceOrg']
 
