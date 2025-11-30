@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 st.title("Fraud Detection: CASH-OUT Transactions")
 st.markdown(
     """
-This app predicts whether a CASH-OUT transaction is fraudulent based on transaction features.
+Predict whether a CASH-OUT transaction is fraudulent based on transaction features.
 """
 )
 
